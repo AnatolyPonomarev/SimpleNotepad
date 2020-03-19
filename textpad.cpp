@@ -13,3 +13,7 @@ Textpad::~Textpad()
     delete ui;
 }
 
+void Textpad::newDocument(){};
+void Textpad::open(){};
+void Textpad::save(){};
+void Textpad::exit(){};

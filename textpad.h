@@ -15,6 +15,13 @@ public:
     Textpad(QWidget *parent = nullptr);
     ~Textpad();
 
+private slots:
+private slots:
+      void newDocument();
+      void open();
+      void save();
+      void exit();
+
 private:
     Ui::Textpad *ui;
 };
